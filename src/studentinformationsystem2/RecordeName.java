@@ -1,7 +1,12 @@
 package studentinformationsystem2;
 
 public class RecordeName {
-    System.out.print("hello");
-    
+
+    @Override
+    public String toString() {
+        return "RecordeName []";
+    }
+    System.out.println("hello");
+
     
 }
